@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    border: 1px dotted green;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.shop {
+    flex-basis: 16%;
+    border: 1px dotted crimson;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: left; /* Center align the text in the boxes */
+    flex-direction: column;
+    flex-basis: 30%;
+}
